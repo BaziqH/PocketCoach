@@ -1,0 +1,41 @@
+/* PocketCoach.strings */
+
+"pc_choose_exercise_title" = "Choose an exercise";
+"pc_exercise_category_label" = "REAL-TIME AI COACH";
+"pc_choose_exercise_subtitle" = "Select a movement for real-time camera form analysis";
+"pc_setup_tip_title" = "Camera Setup Tip";
+"pc_setup_tip_body" = "Place your phone at hip height 6–8 ft away for automatic pose tracking.";
+"pc_start_action" = "Start";
+"pc_mode_reps" = "Reps";
+"pc_mode_hold" = "Hold";
+"pc_checkpoints_format" = "%d checkpoints";
+"pc_camera_access_needed_title" = "Camera access needed";
+"pc_camera_access_needed_message" = "Pocket Coach requires camera access to check your form in real-time. Please enable camera access in Settings.";
+"pc_open_settings_title" = "Open Settings";
+"pc_positioning_guide_text" = "Place the phone side-on, fit your whole body";
+"pc_finish_set_title" = "Finish Set";
+"pc_summary_title" = "Session Summary";
+"pc_another_set_title" = "Another set";
+"pc_change_exercise_title" = "Change exercise";
+"pc_done_title" = "Done";
+
+"pc_tracking_good" = "Tracking good";
+"pc_tracking_move_back" = "Move back";
+"pc_tracking_body_not_visible" = "Body not fully visible";
+
+"pc_cue_chest_up" = "Keep chest lifted";
+"pc_cue_knees_out" = "Push knees outward";
+"pc_cue_deeper" = "Go lower into squat";
+
+"pc_summary_total_reps" = "Total Reps";
+"pc_summary_clean_reps" = "Clean Reps";
+"pc_summary_form_errors" = "Reps with Errors";
+"pc_summary_common_error" = "Most Common Error";
+"pc_summary_no_errors" = "No errors detected! Great form!";
+"pc_summary_duration" = "Duration";
+
+"pc_close_accessibility" = "Close Pocket Coach";
+"pc_flip_camera_accessibility" = "Flip camera";
+"pc_rep_counter_accessibility" = "Completed repetitions: %d";
+"pc_tracking_quality_accessibility" = "Tracking quality: %@";
+"pc_cue_accessibility" = "Form correction: %@";

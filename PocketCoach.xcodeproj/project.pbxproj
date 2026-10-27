@@ -35,9 +35,14 @@
 			path = PocketCoach;
 			sourceTree = "<group>";
 		};
-		6EB30BB8308F19E900DD1DC0 /* PocketCoachTests */ = {
+		6EB30BAA308F19E600DD1DC1 /* App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PocketCoachTests;
+			path = App;
+			sourceTree = "<group>";
+		};
+		6EB30BB8308F19E900DD1DC0 /* PocketCoachAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PocketCoachAppTests;
 			sourceTree = "<group>";
 		};
 		6EB30BC2308F19E900DD1DC0 /* PocketCoachUITests */ = {
@@ -75,8 +80,9 @@
 		6EB30B9F308F19E600DD1DC0 = {
 			isa = PBXGroup;
 			children = (
+				6EB30BAA308F19E600DD1DC1 /* App */,
 				6EB30BAA308F19E600DD1DC0 /* PocketCoach */,
-				6EB30BB8308F19E900DD1DC0 /* PocketCoachTests */,
+				6EB30BB8308F19E900DD1DC0 /* PocketCoachAppTests */,
 				6EB30BC2308F19E900DD1DC0 /* PocketCoachUITests */,
 				6EB30BA9308F19E600DD1DC0 /* Products */,
 			);
@@ -109,6 +115,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				6EB30BAA308F19E600DD1DC0 /* PocketCoach */,
+				6EB30BAA308F19E600DD1DC1 /* App */,
 			);
 			name = PocketCoach;
 			packageProductDependencies = (
@@ -131,7 +138,7 @@
 				6EB30BB7308F19E900DD1DC0 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				6EB30BB8308F19E900DD1DC0 /* PocketCoachTests */,
+				6EB30BB8308F19E900DD1DC0 /* PocketCoachAppTests */,
 			);
 			name = PocketCoachTests;
 			packageProductDependencies = (
@@ -405,6 +412,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -413,6 +421,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Artech.PocketCoach;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -437,6 +448,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,6 +457,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Artech.PocketCoach;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;

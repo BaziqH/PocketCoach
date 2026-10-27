@@ -1,0 +1,25 @@
+# Agents and Documentation
+.agents/
+*.md
+
+# Xcode
+## User settings
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.xcbkptlist
+
+## Build generated
+build/
+DerivedData/
+*.moved-aside
+
+## Project and Workspace
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+
+## System Files
+.DS_Store
